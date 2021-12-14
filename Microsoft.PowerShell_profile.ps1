@@ -27,4 +27,6 @@ Set-PoshPrompt -Theme half-life
 
 function Load-DevEnv {
 	. "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\Launch-VsDevShell.ps1"
+	$global:VCPKG_INSTALL_DIR=$Env:VCPKG_INSTALL_DIR
+	$global:VCPKG_DEFAULT_TRIPLET=$Env:VCPKG_DEFAULT_TRIPLET
 }
