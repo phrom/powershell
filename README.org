@@ -1,0 +1,2 @@
+* Powershell Profile
+Save this to C:\Users\<USER>\Documents\PowerShell\
